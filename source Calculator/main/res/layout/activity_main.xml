@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/MyLinnearLayoutOfButton"
+        android:layout_marginBottom="@dimen/marginBottomComponent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:paddingRight="@dimen/paddingResult"
+            android:text="@string/textResult"
+            android:textSize="@dimen/resultSize" />
+    </LinearLayout>
+
+    <!--Display button-->
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_weight="7">
+
+        <!--Row 1-->
+        <LinearLayout style="@style/MyLinnearLayoutOfButton">
+
+            <Button
+                android:id="@+id/btnNumber1"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn1" />
+
+            <Button
+                android:id="@+id/btnNumber2"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn2" />
+
+            <Button
+                android:id="@+id/btnNumber3"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn3" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                style="@style/BtnStyle"
+                android:text="@string/textBtnAdd" />
+        </LinearLayout>
+
+        <!--Row 2-->
+        <LinearLayout style="@style/MyLinnearLayoutOfButton">
+
+            <Button
+                android:id="@+id/btnNumber4"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn4" />
+
+            <Button
+                android:id="@+id/btnNumber5"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn5" />
+
+            <Button
+                android:id="@+id/btnNumber6"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn6" />
+
+            <Button
+                android:id="@+id/btnSub"
+                style="@style/BtnStyle"
+                android:text="@string/textBtnSub" />
+        </LinearLayout>
+
+        <!--Row 3-->
+        <LinearLayout style="@style/MyLinnearLayoutOfButton">
+
+            <Button
+                android:id="@+id/btnNumber7"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn7" />
+
+            <Button
+                android:id="@+id/btnNumber8"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn8" />
+
+            <Button
+                android:id="@+id/btnNumber9"
+                style="@style/BtnStyle"
+                android:text="@string/textBtn9" />
+
+            <Button
+                android:id="@+id/btnMul"
+                style="@style/BtnStyle"
+                android:text="@string/textBtnMul" />
+        </LinearLayout>
+
+        <!--Row 4-->
+        <LinearLayout style="@style/MyLinnearLayoutOfButton">
+
+            <Button
+                android:id="@+id/btnNumber0"
+                style="@style/BtnStyle"
+                android:text="@string/textResult" />
+
+            <Button
+                android:id="@+id/btnC"
+                style="@style/BtnStyle"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnResult"
+                style="@style/BtnStyle"
+                android:text="@string/textBtnResult" />
+
+            <Button
+                android:id="@+id/btnDiv"
+                style="@style/BtnStyle"
+                android:text="@string/textBtnDiv" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

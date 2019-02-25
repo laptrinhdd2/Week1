@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="resultSize">40sp</dimen>
+    <dimen name="marginApp">5dp</dimen>
+    <dimen name="marginBtn">2dp</dimen>
+    <dimen name="marginBottomComponent">5sp</dimen>
+    <dimen name="textBtnSize">30sp</dimen>
+    <dimen name="paddingResult">5dp</dimen>
+</resources>

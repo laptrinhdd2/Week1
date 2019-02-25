@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="textResult">0</string>
+    <string name="textBtn1">1</string>
+    <string name="textBtn2">2</string>
+    <string name="textBtn3">3</string>
+    <string name="textBtn4">4</string>
+    <string name="textBtn5">5</string>
+    <string name="textBtn6">6</string>
+    <string name="textBtn7">7</string>
+    <string name="textBtn8">8</string>
+    <string name="textBtn9">9</string>
+    <string name="textBtnAdd">+</string>
+    <string name="textBtnSub">-</string>
+    <string name="textBtnDiv">/</string>
+    <string name="textBtnMul">*</string>
+    <string name="textBtnResult">=</string>
+</resources>

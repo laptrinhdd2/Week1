@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Dinh nghia hinh cua action bar-->
+    android:shape="rectangle"
+
+    <!--Dinh nghia vien cua action bar-->
+    <stroke
+        android:width="1dp"
+        android:color="#FFF88FFF"></stroke>
+
+    <!--Thay doi mau cho action bar
+    angle: goc thay doi mau (90 do: chuyen theo chieu doc)
+    centerColor: mau giua
+    endColor: mau ket thuc
+    startColor: mau bat dau-->
+    <gradient
+        android:angle="90"
+        android:centerColor="#D6D6D6"
+        android:endColor="#6586F0"
+        android:startColor="#6586F0"></gradient>
+</shape>
